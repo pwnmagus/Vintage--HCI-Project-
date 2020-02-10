@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIntage - Home</title>
+    <link rel="stylesheet" href="Frameworks/core.css">
+    <link rel="stylesheet" href="Frameworks/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="Frameworks/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <!-- Section Header -->
+    <header>
+        <img src="Logos/Logo 1.png">
+        <div class="container-search">  
+          <h3 class="heads">Welcome to VIntage !</h3>
+        <form class="form-flex" method="GET">
+         <input type="text" name="search" id="search" placeholder="What do you want to search?"></input>
+       <input type="button" class="searchit " value="Search" onclick="searchs()"/> 
+        </form> 
+      </div>
+    </header>
+
+    <!-- Section Navbar -->
+        <div class="navbar" id="responsive-navbar">
+                <a href="index.html"class="active">Home</a>
+               
+                <div class="dropdown">
+                  <button class="dropbtn">Products
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="VI-Furniture.html">Vintage Furnitures</a>
+                    <a href="VI-item.html">Vintage Items</a>
+                    
+                  </div>
+                </div> 
+                <a href="register.html" >Register</a>
+                <a href="about.html">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="Navbar()">&#9776;</a>
+         </div>
+        
+         <!-- Section Contents  -->
+      
+         <!--  Latest New Products  -->
+         <div class="container">
+            <div class="jumbotron">
+              <h2>Our Latest New Products</h2>
+            </div>
+          </div>
+          
+          <div class="container-slider">
+            <!-- Slider for Items -->
+            <div class="slider">
+              <h2 class="promo">Vintage Furnitures</h2>
+              <div class="slider-content">
+                <div class="slides">
+                  
+                  <img src="./images/vintage-furniture-4.jpg" alt="">
+                  <img src="./images/vintage-furniture-2.jpg" alt="">
+                  <img src="./images/vintage-furniture-3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider for Items -->
+            <div class="slider">
+              <h2 class="promo">Vintage Items</h2>
+              <div class="slider-content">
+                <div class="slides">
+                  <img src="./images/vintage-item-2.jpg" alt="">
+                  <img src="./images/vintage-item-3.jpg" alt="">
+                  <img src="./images/vintage-item-6.jpg" alt="">
+                </div>
+              </div>
+            </div> 
+
+          </div>
+       
+           <!--  Buat bikin jumbotron title  -->
+         <div class="container">
+            <div class="jumbotron">
+              <h2>Vintage Furnitures</h2> 
+            </div>
+          </div>
+
+          <!-- Furnitures -->
+        <div class="container-product">
+            <div class="card-product">               
+                <div class="card-product-container">
+                    <img class="card-product-img" src="images/vintage-furniture-1.jpg">
+                    <br><br>
+                    <a href="" class="product-title">Vintage Wooden Stool</a>
+                  <p class="product-content">
+                   IDR 250.000
+                  </p>                         
+                </div>
+            </div>
+ 
+            <div class="card-product">                  
+                <div class="card-product-container">
+                    <img class="card-product-img" src="images/vintage-furniture-3.jpg">
+                  <br><br>
+                    <a href="" class="product-title">Vintage White Side Table</a>
+                  <p class="product-content">
+                   IDR 350.000
+                  </p>       
+                </div>
+            </div>
+ 
+            <div class="card-product">                  
+                <div class="card-product-container">
+                    <img class="card-product-img" src="images/vintage-furniture-11.jpg">
+                  <br><br>
+                    <a href="" class="product-title">Vintage Coffee Table Set</a>
+                  <p class="product-content">
+                   IDR 3.500.000
+                  </p>       
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="card-product-container">
+                  <img class="card-product-img" src="images/vintage-furniture-12.jpg">
+               
+                <br><br>
+                <a href="" class="product-title">Vintage White  Buffet</a>
+              <p class="product-content">
+               IDR 2.250.000
+              </p>       
+              </div>
+            </div>
+        </div>
+
+        <!-- View More Products -->
+        <div class="container-view-more">
+            <a class="view-more" href="VI-Furniture.html">View more</a>
+        </div>
+       
+      
+  <!-- Items -->
+  <!--  Buat bikin jumbotron title  -->
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Vintage Items</h2> 
+        </div>
+      </div>
+
+      <div class="container-product">
+          <div class="card-product">                  
+              <div class="card-product-container">
+                  <img class="card-product-img" src="images/vintage-item-2.jpg">
+                <br><br>
+                  <a href="" class="product-title">Vintage Wall Decorations set</a>
+                <p class="product-content">
+                 IDR 50.000
+                </p>       
+              </div>
+          </div>
+      
+          <div class="card-product">                  
+              <div class="card-product-container">
+                  <img class="card-product-img" src="images/vintage-item-3.jpg">
+                <br><br>
+                  <a href="" class="product-title">Rooster Vintage Clock Original</a>
+                <p class="product-content">
+                 IDR 200.000
+                </p>       
+              </div>
+          </div>
+
+          <div class="card-product">                  
+              <div class="card-product-container">
+                  <img class="card-product-img" src="images/vintage-item-6.jpg">
+                <br><br>
+                  <a href="" class="product-title">Vintage Side Rack - white </a>
+                <p class="product-content">
+                 IDR 300.000
+                </p>       
+              </div>
+          </div>
+      
+          <div class="card-product">                  
+              <div class="card-product-container">
+                  <img class="card-product-img" src="images/vintage-item-7.jpg">
+                <br><br>
+                  <a href="" class="product-title">Vintage Double Sided Clock</a>
+                <p class="product-content">
+                 IDR 1.500.000
+                </p>       
+              </div>
+          </div>
+      </div>
+
+     <!-- View More Products -->
+     <div class="container-view-more">
+        <a class="view-more" href="VI-item.html">View more</a>
+    </div>
+
+  
+
+       <!-- Section Footer -->
+      <footer>
+   
+          <div class="container-footer">
+          <div class="row">
+
+            <!-- Additional Navigation -->
+              <div class="column">
+                <h3 class="footer-title">VIntage Shop</h3>
+                <div class="container-additionalnav">
+                <a href="index.html">Home</a>
+                <a href="register.html" >Register</a>
+                <a href="about.html">About</a>
+                </div>
+                  <!-- <p>Copyright &copy; VIntage - 2019</p> -->
+              </div>
+
+              <!-- Additional Navigation -->
+              <div class="column" >
+                <h3 class="footer-title">Explore Shop</h3>
+                  <div class="container-additionalnav">
+                  <a href="VI-Furniture.html">Vintage Furnitures</a>
+                  <a href="VI-item.html">Vintage Items</a>
+                  </div>
+              </div>
+
+              <!-- Follow Us -->
+                  <div class="column">
+                    <div class="container-follow-us">
+                        <h3 class="follow">Follow us on : </h3>
+                      <a class="facebook" href="https://www.facebook.com"> <i class="fa fa-facebook"></i></a>
+                      <a class="twitter" href="https://www.twitter.com"> <i class="fa fa-twitter"></i></a>
+                      <a class="instagram" href="https://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+                      </div>
+                  </div>
+            </div>
+      </div>
+      </footer>
+      <!-- Copyright -->
+       <footer>
+       <p class="copyright">Copyright &copy; VIntage - 2019</p>
+      </footer>
+
+      
+      <!-- Buat auto scroll ke atas kalo kepencet tombolnya -->
+    <button onclick="topFunction()" id="backtop" title="Go to top">&nbsp;<b><i class="fa fa-angle-up" aria-hidden="true"></i></b>&nbsp;</button>
+    <script src="Frameworks/utility.js"></script>
+    <script src="Frameworks/responsive-navbar.js"></script>
+    <script src="Frameworks/slider.js"></script>
+   
+</body>
+</html>

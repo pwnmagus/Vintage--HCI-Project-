@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>VIntage - Register</title>
+     <link rel="stylesheet" href="Frameworks/core.css">
+     <link rel="stylesheet" href="Frameworks/font-awesome-4.7.0/css/font-awesome.css">
+ </head>
+ <body>
+
+    <!-- Section Header -->
+    <header>
+            <img src="Logos/Logo 1.png">
+            <div class="container-search">  
+              <h3 class="heads">Welcome to VIntage !</h3>
+            <form class="form-flex" method="GET">
+             <input type="text" name="search" id="search" placeholder="What do you want to search?"></input>
+           <input type="button" class="searchit " value="Search" onclick="searchs()"/> 
+            </form> 
+          </div>
+        </header>
+
+    <!-- Section Navbar -->
+    <div class="navbar" id="responsive-navbar">
+            <a href="index.html">Home</a>
+           
+            <div class="dropdown">
+              <button class="dropbtn">Products
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="VI-Furniture.html">Vintage Furnitures</a>
+                <a href="VI-item.html">Vintage Items</a>
+                
+              </div>
+            </div> 
+            <a  class="active" href="register.html" >Register</a>
+            
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="Navbar()">&#9776;</a>
+     </div>
+    
+      
+<!-- Section Contents -->
+<div class="bg-img">
+    <section id="forms">
+    <div class="container-register">
+        <center><img src="Logos/Logo 1.png"></center>
+                <form method="post" name="register" id="register">
+                    
+                    <h1>Sign Up</h1>
+                    <br><br><br><br>
+                    <p>Please fill in this form to create an account.</p>
+                
+                    <hr>
+                    <p>Username</p>
+                    <input type="text" name="user" id="user" placeholder="Enter Your Username"></input>
+                    
+                    <br>
+                    <p >Email</p>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email"></input>
+
+                    <br>
+                    <p>Password</p>
+                    <input type="password" name="pass" id="pass" placeholder="Enter Your Password"></input>
+                    
+                    <br>
+                    <p>Confirm Password</p>
+                    <input type="password" name="confirm" id="confirm" placeholder="Confirm Your Password"></input>
+                    
+                    <br>
+                    <p>Gender</p>
+                    <input type="radio" name="sex" id="male">Male</input>
+                    <input type="radio" name="sex" id="female">Female</input>
+
+                    <br><br>
+                    <p>Member Type</p>
+                    <select name="member_type" id="member">
+                            <option value=0>-- Choose Member Type --</option>
+                            <option value=1>Standard</option>
+                            <option value=2>Premium</option>
+                    </select>
+
+                    <br><br>
+                    <small>By creating an account you agree to our Terms & Condition.</small><br><br>
+                    <input type="radio" name="agree" id="agree">I agree </input>
+                    
+                    <br><br>
+                    <input type="button" class="submit" value="Submit" onclick="Cek()" />
+                   <br><br>
+                    
+                    <strong><div class="errormsg" name="err" id="err">&nbsp;</div></strong>
+                   
+
+                </form>
+
+            
+        
+    </div>
+    </section>
+</div>
+
+       <!-- Section Footer -->
+       <footer>
+   
+        <div class="container-footer">
+        <div class="row">
+
+          <!-- Additional Navigation -->
+            <div class="column">
+              <h3 class="footer-title">VIntage Shop</h3>
+              <div class="container-additionalnav">
+              <a href="index.html">Home</a>
+              <a href="register.html" >Register</a>
+              <a href="about.html">About</a>
+              </div>
+                <!-- <p>Copyright &copy; VIntage - 2019</p> -->
+            </div>
+
+            <!-- Additional Navigation -->
+            <div class="column" >
+              <h3 class="footer-title">Explore Shop</h3>
+                <div class="container-additionalnav">
+                <a href="VI-Furniture.html">Vintage Furnitures</a>
+                <a href="VI-item.html">Vintage Items</a>
+                </div>
+            </div>
+
+            <!-- Follow Us -->
+                <div class="column">
+                  <div class="container-follow-us">
+                      <h3 class="follow">Follow us on : </h3>
+                    <a class="facebook" href="https://www.facebook.com"> <i class="fa fa-facebook"></i></a>
+                    <a class="twitter" href="https://www.twitter.com"> <i class="fa fa-twitter"></i></a>
+                    <a class="instagram" href="https://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+          </div>
+    </div>
+    </footer>
+    <!-- Copyright -->
+     <footer>
+     <p class="copyright">Copyright &copy; VIntage - 2019</p>
+    </footer>
+    
+     <button onclick="topFunction()" id="backtop" title="Go to top">&nbsp;<b><i class="fa fa-angle-up" aria-hidden="true"></i></b>&nbsp;</button>
+     <script src="Frameworks/utility.js"></script>
+     <script src="Frameworks/responsive-navbar.js"></script>
+     <script src="Frameworks/register.js"></script>
+    
+ </body>
+ </html>
